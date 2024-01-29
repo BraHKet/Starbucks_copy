@@ -1,38 +1,104 @@
-.App {
+*{
+  box-sizing: border-box;
+  background-color: white;
+  font-family:'Lato',sans-serif;
+}
+
+.container {
+  margin:0;
+  padding:0;
+}
+
+
+
+.header {
+  height: 6.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.header img {
+  margin-left: 10rem;
+  height: 70px;
+  width: 70px;
+  margin-right: 36.5rem;
+}
+
+
+
+.header .caffe {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  position: relative;
+  height: 5rem;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header div:hover {
+  color: #00754a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.caffe .sub_caffe {
+  position: absolute;
+  display: none;
+  border-top: 2px solid #006c45;
+  width: 15rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  margin-left: -1rem;
+}
+.caffe:hover .sub_caffe {
+  display: block;
+}
+.sub_caffe:hover {
+  display: block;
+}
+.sub_caffe ul {
+  padding-left: 1rem;
+}
+.sub_caffe li {
+  list-style-type: none;
+  text-align:start;
+  padding-bottom: 2rem;
+  color:black;
+}
+.sub_caffe:hover #caffe1{
+  color: #00754a;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+
+.header .menu {
+  padding-right: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.header .responsabilita {
+  padding-right: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header .community {
+  padding-right: 2rem;
 }
+
+.header .sudinoi {
+  padding-right: 2rem;
+}
+
+
+
+.info {
+  background-color: rgb(240, 240, 240);
+  height: 7rem;
+  text-align:center;
+  padding-top: 1.5rem;
+}
+
+
+.info sup {
+  background-color: rgb(240, 240, 240);
+}
+
