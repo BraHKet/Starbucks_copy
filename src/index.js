@@ -8,6 +8,7 @@ root.render(
   <React.StrictMode>
     <head>
       <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css' />
+      <link href='https://fonts.googleapis.com/css?family=Poppins:400,700,900' rel='stylesheet' type='text/css' />
     </head>
     <App />
   </React.StrictMode>

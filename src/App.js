@@ -51,10 +51,27 @@ function App() {
           <img src='https://www.starbucks.it/wp-content/uploads/2023/01/Banner_Hero_HP.jpg' alt=''/>
         </div>
 
-        <div className="info" > Un gusto unico come quello di casa. Scopri i nostri caffè Starbucks<sup>®</sup>
+        <div className="info" >
+          <h2>Il caffè Starbucks <sup>®</sup>. <br /> Preparalo a casa come piace a te.</h2>
+          <span> Un gusto unico come quello di casa. Scopri i nostri caffè Starbucks<sup>®</sup>
          da poter preparare comodamente a casa tua. <br /> Goditi una tazza di caffè 100% Arabica o una bevanda Starbucks <sup>®</sup> 
-        , quando e come vuoi tu.</div>
-        <div className="bio"></div>
+        , quando e come vuoi tu. </span>
+        </div>
+
+        <div className="ilnostromenu">
+          <h1>IL NOSTRO MENÙ</h1>
+          <div className="separatore">
+        </div>
+
+        <div className="immaginimenu">
+          <div className="imgmenu1"></div>
+          <div className="imgmenu2"></div>
+        </div>
+          
+
+
+        </div>
+
     </div>
   );
 }

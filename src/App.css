@@ -242,13 +242,20 @@
 
 .info {
   background-color: rgb(240, 240, 240);
-  height: 7rem;
+  height: 13rem;
   text-align:center;
   padding-top: 1.5rem;
 }
 
 
-.info sup {
+.info sup,span {
+  background-color: rgb(240, 240, 240);
+}
+
+.info h2 {
+  color:#006241;
+  font-size: 1.25rem;
+  font-family: 'Poppins',sans-serif;
   background-color: rgb(240, 240, 240);
 }
 
@@ -263,4 +270,39 @@
   transform: scale(1.15);
   padding-bottom: 600px;
   padding-right: 2600px;
+}
+
+
+.ilnostromenu {
+  text-align: center;
+}
+
+.ilnostromenu h1 {
+  padding-top: 3rem;
+  font-family: 'Poppins',sans-serif;
+}
+
+.separatore {
+  margin: 0 auto;
+  border-bottom: 3px solid #006c45;
+  width: 6%; 
+}
+
+
+
+.immaginimenu {
+  display: flex;
+  margin-top: 5rem;
+}
+.imgmenu1 {
+  width: 392px;
+  height: 294px;
+  background-image: url('https://www.starbucks.it/wp-content/uploads/2023/01/Tile_cibo_sbux.jpg');
+  background-size: cover;
+}
+.imgmenu2 {
+  width: 392px;
+  height: 294px;
+  background-image: url('https://www.starbucks.it/wp-content/uploads/2022/03/SDO_starbucks_17122020_004-min-scaled.jpg');
+  background-size: cover;
 }
