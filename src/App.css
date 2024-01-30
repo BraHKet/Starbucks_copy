@@ -13,13 +13,14 @@
 
 .header {
   height: 6.5rem;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   padding-bottom: 1rem;
   background-color: white;
   display: flex;
   align-items: center;
 }
 .header img {
+  margin-top: 0.5rem;
   margin-left: 10rem;
   height: 70px;
   width: 70px;
@@ -28,17 +29,10 @@
 
 
 
-.header .caffe {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  position: relative;
-  height: 5rem;
-  text-align: center;
-}
-.header div:hover {
-  color: #00754a;
-}
 
+
+
+/* submenù per il CAFFE */
 
 .caffe .sub_caffe {
   position: absolute;
@@ -49,6 +43,7 @@
   margin-top: 1.5rem;
   text-decoration: none;
   margin-left: -1rem;
+  z-index: 1;
 }
 .caffe:hover .sub_caffe {
   display: block;
@@ -65,27 +60,182 @@
   padding-bottom: 2rem;
   color:black;
 }
-.sub_caffe:hover #caffe1{
+.caffe1:hover {
+  color: #00754a;
+}
+.caffe2:hover {
+  color: #00754a;
+}
+.caffe3:hover {
   color: #00754a;
 }
 
 
+/* submenù per il MENU */
+
+.menu .sub_menu {
+  position: absolute;
+  display: none;
+  border-top: 2px solid #006c45;
+  width: 15rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  margin-left: -1rem;
+  z-index: 1;
+}
+.menu:hover .sub_menu {
+  display: block;
+}
+.sub_menu:hover {
+  display: block;
+}
+.sub_manu ul {
+  padding-left: 1rem;
+}
+.sub_menu li {
+  list-style-type: none;
+  text-align:start;
+  padding-bottom: 2rem;
+  color:black;
+}
+.menu1:hover {
+  color: #00754a;
+}
+.menu2:hover {
+  color: #00754a;
+}
+
+/* submenù per il RESPONSABILITA */
+
+.responsabilita .sub_resp {
+  position: absolute;
+  display: none;
+  border-top: 2px solid #006c45;
+  width: 15rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  margin-left: -1rem;
+  z-index: 1;
+}
+.responsabilita:hover .sub_resp {
+  display: block;
+}
+.sub_resp:hover {
+  display: block;
+}
+.sub_resp ul {
+  padding-left: 1rem;
+}
+.sub_resp li {
+  list-style-type: none;
+  text-align:start;
+  padding-bottom: 2rem;
+  color:black;
+}
+.resp1:hover {
+  color: #00754a;
+}
+.resp2:hover {
+  color: #00754a;
+}
+.resp3:hover {
+  color: #00754a;
+}
+.resp4:hover {
+  color: #00754a;
+}
+
+/* submenù per il SUDINOI */
+
+.sudinoi .sub_sudinoi {
+  position: absolute;
+  display: none;
+  border-top: 2px solid #006c45;
+  width: 15rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  margin-left: -1rem;
+  z-index: 1;
+}
+.sudinoi:hover .sub_sudinoi {
+  display: block;
+}
+.sub_sudinoi:hover {
+  display: block;
+}
+.sub_sudinoi ul {
+  padding-left: 1rem;
+}
+.sub_sudinoi li {
+  list-style-type: none;
+  text-align:start;
+  padding-bottom: 2rem;
+  color:black;
+}
+.sudinoi1:hover {
+  color: #00754a;
+}
+.sudinoi2:hover {
+  color: #00754a;
+}
+.sudinoi3:hover {
+  color: #00754a;
+}
 
 
+/* Impostazioni dei diversi header principali */
+
+/* qualsiasi div hoverato diventa verde */
+.header div:hover {
+  color: #00754a;
+}
+
+/* CAFFE */
+.header .caffe {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  position: relative;
+  height: 5rem;
+  text-align: center;
+}
+
+/*MENU*/
 .header .menu {
+  padding-top: 2rem;
   padding-right: 2rem;
+  position: relative;
+  height: 5rem;
+  text-align: center;
 }
 
+/*RESPONSABILITA*/
 .header .responsabilita {
+  padding-top: 2rem;
   padding-right: 2rem;
+  position: relative;
+  height: 5rem;
+  text-align: center;
 }
 
+/*COMMUNITY*/
 .header .community {
+  padding-top: 2rem;
   padding-right: 2rem;
+  position: relative;
+  height: 5rem;
+  text-align: center;
 }
 
+/*SUDINOI*/
 .header .sudinoi {
+  padding-top: 2rem;
   padding-right: 2rem;
+  position: relative;
+  height: 5rem;
+  text-align: center;
 }
 
 
@@ -102,3 +252,15 @@
   background-color: rgb(240, 240, 240);
 }
 
+
+
+.imgHome {
+  overflow: hidden;
+  position: relative;
+  height: 804px;
+}
+.imgHome img {
+  transform: scale(1.15);
+  padding-bottom: 600px;
+  padding-right: 2600px;
+}
