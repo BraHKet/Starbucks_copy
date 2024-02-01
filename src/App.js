@@ -66,8 +66,15 @@ function App() {
         <div className="immaginimenu">
           <div className="imgmenu1"></div>
           <div className="imgmenu2"></div>
+          
+          <div className="sott-container">
+            <div className="imgmenu1-sott">CIBO STARBUCKS</div>
+            <div className="imgmenu2-sott">BEVANDE STARBUCKS</div>
+          </div>
+          
         </div>
           
+        
 
 
         </div>

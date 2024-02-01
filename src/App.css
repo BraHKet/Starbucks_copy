@@ -1,15 +1,24 @@
+
+/* TUTTI */
+
 *{
   box-sizing: border-box;
   background-color: white;
   font-family:'Lato',sans-serif;
 }
 
+
+/* CONTAINER PRINCIPALE */
+
 .container {
   margin:0;
   padding:0;
+  height: 100vw;
+  width: 100vw;
 }
 
 
+/* HEADER */
 
 .header {
   height: 6.5rem;
@@ -21,18 +30,16 @@
 }
 .header img {
   margin-top: 0.5rem;
-  margin-left: 10rem;
+  margin-left: 10.5%;
   height: 70px;
   width: 70px;
-  margin-right: 36.5rem;
+  margin-right: 38.5%;
 }
 
 
 
 
-
-
-/* submenù per il CAFFE */
+    /* submenù per il CAFFE */
 
 .caffe .sub_caffe {
   position: absolute;
@@ -71,7 +78,7 @@
 }
 
 
-/* submenù per il MENU */
+    /* submenù per il MENU */
 
 .menu .sub_menu {
   position: absolute;
@@ -106,7 +113,8 @@
   color: #00754a;
 }
 
-/* submenù per il RESPONSABILITA */
+
+    /* submenù per il RESPONSABILITA */
 
 .responsabilita .sub_resp {
   position: absolute;
@@ -147,7 +155,8 @@
   color: #00754a;
 }
 
-/* submenù per il SUDINOI */
+
+    /* submenù per il SUDINOI */
 
 .sudinoi .sub_sudinoi {
   position: absolute;
@@ -186,14 +195,15 @@
 }
 
 
-/* Impostazioni dei diversi header principali */
+    /* Impostazioni dei diversi header principali */
 
-/* qualsiasi div hoverato diventa verde */
+    /* qualsiasi div hoverato diventa verde */
+
 .header div:hover {
   color: #00754a;
 }
 
-/* CAFFE */
+        /* CAFFE */
 .header .caffe {
   padding-top: 2rem;
   padding-right: 2rem;
@@ -202,7 +212,7 @@
   text-align: center;
 }
 
-/*MENU*/
+        /*MENU*/
 .header .menu {
   padding-top: 2rem;
   padding-right: 2rem;
@@ -211,7 +221,7 @@
   text-align: center;
 }
 
-/*RESPONSABILITA*/
+        /*RESPONSABILITA*/
 .header .responsabilita {
   padding-top: 2rem;
   padding-right: 2rem;
@@ -220,7 +230,7 @@
   text-align: center;
 }
 
-/*COMMUNITY*/
+        /*COMMUNITY*/
 .header .community {
   padding-top: 2rem;
   padding-right: 2rem;
@@ -229,7 +239,7 @@
   text-align: center;
 }
 
-/*SUDINOI*/
+        /*SUDINOI*/
 .header .sudinoi {
   padding-top: 2rem;
   padding-right: 2rem;
@@ -240,13 +250,14 @@
 
 
 
+/* INFO */
+
 .info {
   background-color: rgb(240, 240, 240);
   height: 13rem;
   text-align:center;
   padding-top: 1.5rem;
 }
-
 
 .info sup,span {
   background-color: rgb(240, 240, 240);
@@ -260,6 +271,7 @@
 }
 
 
+/* IMMAGINE TOP*/
 
 .imgHome {
   overflow: hidden;
@@ -272,6 +284,9 @@
   padding-right: 2600px;
 }
 
+
+
+/* IL NOSTRO MENU */
 
 .ilnostromenu {
   text-align: center;
@@ -291,18 +306,50 @@
 
 
 .immaginimenu {
-  display: flex;
   margin-top: 5rem;
+  text-align: center;
+  height: 100%;
+  width: 100%;
 }
 .imgmenu1 {
-  width: 392px;
-  height: 294px;
+  width: 42.5vw;
+  height: 34vw;
+  max-width: 500px;
+  max-height: 400px;
   background-image: url('https://www.starbucks.it/wp-content/uploads/2023/01/Tile_cibo_sbux.jpg');
   background-size: cover;
+  margin-right :20px;
+  display: inline-block;
 }
 .imgmenu2 {
-  width: 392px;
-  height: 294px;
+  width: 42.5vw;
+  height: 34vw;
+  max-width: 500px;
+  max-height: 400px;
   background-image: url('https://www.starbucks.it/wp-content/uploads/2022/03/SDO_starbucks_17122020_004-min-scaled.jpg');
   background-size: cover;
+  margin-left: 20px;
+  display: inline-block;
 }
+.sott-container {
+  margin-top: 40px;
+  text-align: center;
+}
+.imgmenu1-sott {
+  display: inline-block;
+  margin-right: 11.5vw;
+  font-family: 'Poppins',sans-serif;
+  color:#006241;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+.imgmenu2-sott {
+  display: inline-block;
+  margin-left: 16vw;
+  font-family: 'Poppins',sans-serif;
+  color:#006241;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+
