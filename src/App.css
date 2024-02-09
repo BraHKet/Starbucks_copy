@@ -30,10 +30,10 @@
 }
 .header img {
   margin-top: 0.5rem;
-  margin-left: 10.5%;
+  margin-left: 10.5vw;
   height: 70px;
   width: 70px;
-  margin-right: 38.5%;
+  margin-right: 20.5%;
 }
 
 
@@ -353,3 +353,24 @@
 }
 
 
+
+
+@media only screen and (min-width: 1231px) {
+  .header img {
+    margin-top: 0.5rem;
+    margin-left: calc(1vw + ((100vw - 1200px)/(2.35)));
+    height: 70px;
+    width: 70px;
+    margin-right: 38.5vw;
+  }
+}
+
+@media only screen and (max-width: 1231px) {
+  .header img {
+    margin-top: 0.5rem;
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+    margin-right: 38.5vw;
+  }
+}
