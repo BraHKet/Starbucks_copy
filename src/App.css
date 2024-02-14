@@ -14,7 +14,7 @@
   margin:0;
   padding:0;
   height: 100vw;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 
@@ -28,12 +28,13 @@
   display: flex;
   align-items: center;
 }
+
 .header img {
   margin-top: 0.5rem;
   margin-left: 10.5vw;
   height: 70px;
   width: 70px;
-  margin-right: 20.5%;
+  margin-right: 580px;
 }
 
 
@@ -66,6 +67,9 @@
   text-align:start;
   padding-bottom: 2rem;
   color:black;
+}
+.sub_caffe .caffe3 {
+  padding-bottom: 1rem;
 }
 .caffe1:hover {
   color: #00754a;
@@ -106,6 +110,9 @@
   padding-bottom: 2rem;
   color:black;
 }
+.sub_menu .menu2 {
+  padding-bottom: 1rem;
+}
 .menu1:hover {
   color: #00754a;
 }
@@ -141,6 +148,9 @@
   text-align:start;
   padding-bottom: 2rem;
   color:black;
+}
+.sub_resp .resp4 {
+  padding-bottom: 1rem;
 }
 .resp1:hover {
   color: #00754a;
@@ -183,6 +193,9 @@
   text-align:start;
   padding-bottom: 2rem;
   color:black;
+}
+.sub_sudinoi .sudinoi3 {
+  padding-bottom: 1rem;
 }
 .sudinoi1:hover {
   color: #00754a;
@@ -282,6 +295,7 @@
   transform: scale(1.15);
   padding-bottom: 600px;
   padding-right: 2600px;
+  /*width: 100vw;*/
 }
 
 
@@ -361,7 +375,6 @@
     margin-left: calc(1vw + ((100vw - 1200px)/(2.35)));
     height: 70px;
     width: 70px;
-    margin-right: 38.5vw;
   }
 }
 
@@ -371,6 +384,11 @@
     margin-left: 20px;
     height: 70px;
     width: 70px;
-    margin-right: 38.5vw;
+  }
+}
+
+@media only screen and (max-width: 1256px) {
+  .header img {
+    margin-right: calc(40vw + ((100vw - 1200px)/(2.35)));
   }
 }
