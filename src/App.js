@@ -73,7 +73,10 @@ function App() {
         </div>}
 
         {variabile === false && <div className="header">
-            <a href='www.google.com'>ciao</a>
+            <img src={logo} alt=''/>
+            <div className="button">
+              <button href='www.google.com'></button>
+            </div>
           </div>}
 
 

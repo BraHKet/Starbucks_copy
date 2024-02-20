@@ -19,106 +19,105 @@
 
 
 /* HEADER */
-@media only screen and (min-width: 920px) {
-  .header {
-    height: 6.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    background-color: white;
-    display: flex;
-    align-items: center;
-  }
+.header {
+  height: 6.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
 
-  .header img {
-    margin-top: 0.5rem;
-    margin-left: 10.5vw;
-    height: 70px;
-    width: 70px;
-    margin-right: 580px;
-  }
-
+.header img {
+  margin-top: 0.5rem;
+  margin-left: 10.5vw;
+  height: 70px;
+  width: 70px;
+  margin-right: 580px;
+}
 
 
 
-      /* submenù per il CAFFE */
 
-  .caffe .sub_caffe {
-    position: absolute;
-    display: none;
-    border-top: 2px solid #006c45;
-    width: 15rem;
-    height: 2rem;
-    margin-top: 1.5rem;
-    text-decoration: none;
-    margin-left: -1rem;
-    z-index: 1;
-  }
-  .caffe:hover .sub_caffe {
-    display: block;
-  }
-  .sub_caffe:hover {
-    display: block;
-  }
-  .sub_caffe ul {
-    padding-left: 1rem;
-  }
-  .sub_caffe li {
-    list-style-type: none;
-    text-align:start;
-    padding-bottom: 2rem;
-    color:black;
-  }
-  .sub_caffe .caffe3 {
-    padding-bottom: 1rem;
-  }
-  .caffe1:hover {
-    color: #00754a;
-  }
-  .caffe2:hover {
-    color: #00754a;
-  }
-  .caffe3:hover {
-    color: #00754a;
-  }
+    /* submenù per il CAFFE */
+
+.caffe .sub_caffe {
+  position: absolute;
+  display: none;
+  border-top: 2px solid #006c45;
+  width: 15rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  margin-left: -1rem;
+  z-index: 1;
+}
+.caffe:hover .sub_caffe {
+  display: block;
+}
+.sub_caffe:hover {
+  display: block;
+}
+.sub_caffe ul {
+  padding-left: 1rem;
+}
+.sub_caffe li {
+  list-style-type: none;
+  text-align:start;
+  padding-bottom: 2rem;
+  color:black;
+}
+.sub_caffe .caffe3 {
+  padding-bottom: 1rem;
+}
+.caffe1:hover {
+  color: #00754a;
+}
+.caffe2:hover {
+  color: #00754a;
+}
+.caffe3:hover {
+  color: #00754a;
+}
 
 
-      /* submenù per il MENU */
+    /* submenù per il MENU */
 
-  .menu .sub_menu {
-    position: absolute;
-    display: none;
-    border-top: 2px solid #006c45;
-    width: 15rem;
-    height: 2rem;
-    margin-top: 1.5rem;
-    text-decoration: none;
-    margin-left: -1rem;
-    z-index: 1;
-  }
-  .menu:hover .sub_menu {
-    display: block;
-  }
-  .sub_menu:hover {
-    display: block;
-  }
-  .sub_manu ul {
-    padding-left: 1rem;
-  }
-  .sub_menu li {
-    list-style-type: none;
-    text-align:start;
-    padding-bottom: 2rem;
-    color:black;
-  }
-  .sub_menu .menu2 {
-    padding-bottom: 1rem;
-  }
-  .menu1:hover {
-    color: #00754a;
-  }
-  .menu2:hover {
-    color: #00754a;
-  }
+.menu .sub_menu {
+  position: absolute;
+  display: none;
+  border-top: 2px solid #006c45;
+  width: 15rem;
+  height: 2rem;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  margin-left: -1rem;
+  z-index: 1;
+}
+.menu:hover .sub_menu {
+  display: block;
+}
+.sub_menu:hover {
+  display: block;
+}
+.sub_manu ul {
+  padding-left: 1rem;
+}
+.sub_menu li {
+  list-style-type: none;
+  text-align:start;
+  padding-bottom: 2rem;
+  color:black;
+}
+.sub_menu .menu2 {
+  padding-bottom: 1rem;
+}
+.menu1:hover {
+  color: #00754a;
+}
+.menu2:hover {
+  color: #00754a;
+}
 
 
       /* submenù per il RESPONSABILITA */
@@ -261,7 +260,7 @@
     text-align: center;
   }
 
-}
+
 
 /* INFO */
 
@@ -452,4 +451,22 @@
 }
 .inostricaffe a:hover{
   background-color: black;
+}
+
+
+.header .button {
+  background-color: transparent;
+}
+.header .button button{
+  background-color: #006241;
+  text-decoration: none;
+  color: white;
+  margin-left: 55vw;
+  border:none;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background-image: url('img/icona.png');
+  background-position: center;
+  background-size: 75% 75%;
 }
