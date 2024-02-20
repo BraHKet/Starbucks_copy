@@ -19,249 +19,249 @@
 
 
 /* HEADER */
+@media only screen and (min-width: 920px) {
+  .header {
+    height: 6.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
 
-.header {
-  height: 6.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
-  background-color: white;
-  display: flex;
-  align-items: center;
-}
-
-.header img {
-  margin-top: 0.5rem;
-  margin-left: 10.5vw;
-  height: 70px;
-  width: 70px;
-  margin-right: 580px;
-}
-
-
+  .header img {
+    margin-top: 0.5rem;
+    margin-left: 10.5vw;
+    height: 70px;
+    width: 70px;
+    margin-right: 580px;
+  }
 
 
-    /* submenù per il CAFFE */
-
-.caffe .sub_caffe {
-  position: absolute;
-  display: none;
-  border-top: 2px solid #006c45;
-  width: 15rem;
-  height: 2rem;
-  margin-top: 1.5rem;
-  text-decoration: none;
-  margin-left: -1rem;
-  z-index: 1;
-}
-.caffe:hover .sub_caffe {
-  display: block;
-}
-.sub_caffe:hover {
-  display: block;
-}
-.sub_caffe ul {
-  padding-left: 1rem;
-}
-.sub_caffe li {
-  list-style-type: none;
-  text-align:start;
-  padding-bottom: 2rem;
-  color:black;
-}
-.sub_caffe .caffe3 {
-  padding-bottom: 1rem;
-}
-.caffe1:hover {
-  color: #00754a;
-}
-.caffe2:hover {
-  color: #00754a;
-}
-.caffe3:hover {
-  color: #00754a;
-}
 
 
-    /* submenù per il MENU */
+      /* submenù per il CAFFE */
 
-.menu .sub_menu {
-  position: absolute;
-  display: none;
-  border-top: 2px solid #006c45;
-  width: 15rem;
-  height: 2rem;
-  margin-top: 1.5rem;
-  text-decoration: none;
-  margin-left: -1rem;
-  z-index: 1;
-}
-.menu:hover .sub_menu {
-  display: block;
-}
-.sub_menu:hover {
-  display: block;
-}
-.sub_manu ul {
-  padding-left: 1rem;
-}
-.sub_menu li {
-  list-style-type: none;
-  text-align:start;
-  padding-bottom: 2rem;
-  color:black;
-}
-.sub_menu .menu2 {
-  padding-bottom: 1rem;
-}
-.menu1:hover {
-  color: #00754a;
-}
-.menu2:hover {
-  color: #00754a;
-}
-
-
-    /* submenù per il RESPONSABILITA */
-
-.responsabilita .sub_resp {
-  position: absolute;
-  display: none;
-  border-top: 2px solid #006c45;
-  width: 15rem;
-  height: 2rem;
-  margin-top: 1.5rem;
-  text-decoration: none;
-  margin-left: -1rem;
-  z-index: 1;
-}
-.responsabilita:hover .sub_resp {
-  display: block;
-}
-.sub_resp:hover {
-  display: block;
-}
-.sub_resp ul {
-  padding-left: 1rem;
-}
-.sub_resp li {
-  list-style-type: none;
-  text-align:start;
-  padding-bottom: 2rem;
-  color:black;
-}
-.sub_resp .resp4 {
-  padding-bottom: 1rem;
-}
-.resp1:hover {
-  color: #00754a;
-}
-.resp2:hover {
-  color: #00754a;
-}
-.resp3:hover {
-  color: #00754a;
-}
-.resp4:hover {
-  color: #00754a;
-}
+  .caffe .sub_caffe {
+    position: absolute;
+    display: none;
+    border-top: 2px solid #006c45;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    margin-left: -1rem;
+    z-index: 1;
+  }
+  .caffe:hover .sub_caffe {
+    display: block;
+  }
+  .sub_caffe:hover {
+    display: block;
+  }
+  .sub_caffe ul {
+    padding-left: 1rem;
+  }
+  .sub_caffe li {
+    list-style-type: none;
+    text-align:start;
+    padding-bottom: 2rem;
+    color:black;
+  }
+  .sub_caffe .caffe3 {
+    padding-bottom: 1rem;
+  }
+  .caffe1:hover {
+    color: #00754a;
+  }
+  .caffe2:hover {
+    color: #00754a;
+  }
+  .caffe3:hover {
+    color: #00754a;
+  }
 
 
-    /* submenù per il SUDINOI */
+      /* submenù per il MENU */
 
-.sudinoi .sub_sudinoi {
-  position: absolute;
-  display: none;
-  border-top: 2px solid #006c45;
-  width: 15rem;
-  height: 2rem;
-  margin-top: 1.5rem;
-  text-decoration: none;
-  margin-left: -1rem;
-  z-index: 1;
-}
-.sudinoi:hover .sub_sudinoi {
-  display: block;
-}
-.sub_sudinoi:hover {
-  display: block;
-}
-.sub_sudinoi ul {
-  padding-left: 1rem;
-}
-.sub_sudinoi li {
-  list-style-type: none;
-  text-align:start;
-  padding-bottom: 2rem;
-  color:black;
-}
-.sub_sudinoi .sudinoi3 {
-  padding-bottom: 1rem;
-}
-.sudinoi1:hover {
-  color: #00754a;
-}
-.sudinoi2:hover {
-  color: #00754a;
-}
-.sudinoi3:hover {
-  color: #00754a;
-}
+  .menu .sub_menu {
+    position: absolute;
+    display: none;
+    border-top: 2px solid #006c45;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    margin-left: -1rem;
+    z-index: 1;
+  }
+  .menu:hover .sub_menu {
+    display: block;
+  }
+  .sub_menu:hover {
+    display: block;
+  }
+  .sub_manu ul {
+    padding-left: 1rem;
+  }
+  .sub_menu li {
+    list-style-type: none;
+    text-align:start;
+    padding-bottom: 2rem;
+    color:black;
+  }
+  .sub_menu .menu2 {
+    padding-bottom: 1rem;
+  }
+  .menu1:hover {
+    color: #00754a;
+  }
+  .menu2:hover {
+    color: #00754a;
+  }
 
 
-    /* Impostazioni dei diversi header principali */
+      /* submenù per il RESPONSABILITA */
 
-    /* qualsiasi div hoverato diventa verde */
+  .responsabilita .sub_resp {
+    position: absolute;
+    display: none;
+    border-top: 2px solid #006c45;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    margin-left: -1rem;
+    z-index: 1;
+  }
+  .responsabilita:hover .sub_resp {
+    display: block;
+  }
+  .sub_resp:hover {
+    display: block;
+  }
+  .sub_resp ul {
+    padding-left: 1rem;
+  }
+  .sub_resp li {
+    list-style-type: none;
+    text-align:start;
+    padding-bottom: 2rem;
+    color:black;
+  }
+  .sub_resp .resp4 {
+    padding-bottom: 1rem;
+  }
+  .resp1:hover {
+    color: #00754a;
+  }
+  .resp2:hover {
+    color: #00754a;
+  }
+  .resp3:hover {
+    color: #00754a;
+  }
+  .resp4:hover {
+    color: #00754a;
+  }
 
-.header div:hover {
-  color: #00754a;
+
+      /* submenù per il SUDINOI */
+
+  .sudinoi .sub_sudinoi {
+    position: absolute;
+    display: none;
+    border-top: 2px solid #006c45;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    margin-left: -1rem;
+    z-index: 1;
+  }
+  .sudinoi:hover .sub_sudinoi {
+    display: block;
+  }
+  .sub_sudinoi:hover {
+    display: block;
+  }
+  .sub_sudinoi ul {
+    padding-left: 1rem;
+  }
+  .sub_sudinoi li {
+    list-style-type: none;
+    text-align:start;
+    padding-bottom: 2rem;
+    color:black;
+  }
+  .sub_sudinoi .sudinoi3 {
+    padding-bottom: 1rem;
+  }
+  .sudinoi1:hover {
+    color: #00754a;
+  }
+  .sudinoi2:hover {
+    color: #00754a;
+  }
+  .sudinoi3:hover {
+    color: #00754a;
+  }
+
+
+      /* Impostazioni dei diversi header principali */
+
+      /* qualsiasi div hoverato diventa verde */
+
+  .header div:hover {
+    color: #00754a;
+  }
+
+          /* CAFFE */
+  .header .caffe {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    height: 5rem;
+    text-align: center;
+  }
+
+          /*MENU*/
+  .header .menu {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    height: 5rem;
+    text-align: center;
+  }
+
+          /*RESPONSABILITA*/
+  .header .responsabilita {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    height: 5rem;
+    text-align: center;
+  }
+
+          /*COMMUNITY*/
+  .header .community {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    height: 5rem;
+    text-align: center;
+  }
+
+          /*SUDINOI*/
+  .header .sudinoi {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    height: 5rem;
+    text-align: center;
+  }
+
 }
-
-        /* CAFFE */
-.header .caffe {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  position: relative;
-  height: 5rem;
-  text-align: center;
-}
-
-        /*MENU*/
-.header .menu {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  position: relative;
-  height: 5rem;
-  text-align: center;
-}
-
-        /*RESPONSABILITA*/
-.header .responsabilita {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  position: relative;
-  height: 5rem;
-  text-align: center;
-}
-
-        /*COMMUNITY*/
-.header .community {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  position: relative;
-  height: 5rem;
-  text-align: center;
-}
-
-        /*SUDINOI*/
-.header .sudinoi {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  position: relative;
-  height: 5rem;
-  text-align: center;
-}
-
-
 
 /* INFO */
 
@@ -345,25 +345,23 @@
   margin-left: 20px;
   display: inline-block;
 }
-.sott-container {
-  margin-top: 40px;
-  text-align: center;
-}
+
 .imgmenu1-sott {
+  margin-top: 36vw;
   display: inline-block;
-  margin-right: 11.5vw;
   font-family: 'Poppins',sans-serif;
   color:#006241;
   font-weight: bold;
-  font-size: 1.15rem;
+  font-size: 1.8vw;
 }
 .imgmenu2-sott {
+  margin-top: 36vw;
   display: inline-block;
-  margin-left: 16vw;
+
   font-family: 'Poppins',sans-serif;
   color:#006241;
   font-weight: bold;
-  font-size: 1.15rem;
+  font-size: 1.8vw;
 }
 
 
@@ -391,4 +389,67 @@
   .header img {
     margin-right: calc(40vw + ((100vw - 1200px)/(2.35)));
   }
+}
+
+@media only screen and (min-width: 1259px) {
+  .imgmenu1-sott {
+    margin-top: 450px;
+    font-size: 1.40rem;
+  }
+  .imgmenu2-sott {
+    margin-top: 450px;
+    font-size: 1.40rem;
+  }
+}
+
+
+@media only screen and (max-width: 920px) {
+  
+}
+
+
+
+
+.inostricaffe {
+  margin-top: 100px;
+  width: 100vw;
+  height: 35vw;
+  background-image: url(https://www.starbucks.it/wp-content/uploads/2022/03/CAFFe.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.testo {
+  background-color: transparent;
+}
+.testo h1{
+  margin-left: 200px;
+  background-color: transparent;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+}
+.inostricaffe p{
+  max-width: 550px;
+  margin-left: 200px;
+  background-color: transparent;
+  color: white;
+  font-size: medium;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.inostricaffe sup{
+  background-color: transparent;
+  color: white;
+}
+.inostricaffe a{
+  padding: 10px;
+  background-color: #006241;
+  margin-left: 200px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.inostricaffe a:hover{
+  background-color: black;
 }
